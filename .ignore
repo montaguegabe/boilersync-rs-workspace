@@ -1,0 +1,5 @@
+# BEGIN multi-managed: search-inside-gitignored-repos
+# Allow us to search inside these gitignored directories
+!/boilersync-rs/
+!/boilersync-rs
+# END multi-managed: search-inside-gitignored-repos

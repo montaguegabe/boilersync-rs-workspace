@@ -1,0 +1,8 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/montaguegabe/boilersync-rs",
+      "description": "Rust rewrite of boilersync (CLI/core) — private remake"
+    }
+  ]
+}
