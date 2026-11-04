@@ -9,6 +9,12 @@ Private remake workspace for **boilersync** in Rust. Do **not** push to or modif
 - The `boilersync` command on Gabe's Mac is a shim that runs `cargo run --release` against this checkout's `boilersync-rs` crate, so `main` here must always build and pass `cargo test`.
 - Prefer Fable coding judgment for crate/layout details Gabe did not specify. Do not invent product scope beyond replacing the Python CLI.
 
+## Status (2026-11-04)
+
+- `boilersync-rs`: CLI and `boilersync-core` implemented with parity to the Python CLI; `cargo test` passes (unit, integration and end-to-end CLI tests). Every `openbase-community/templates` template renders byte-identically to the Python implementation (`init` with the same `--var` values), including `.boilersync` metadata.
+- Known deliberate differences: `.boilersync` always ends with a newline (Python dropped it when registering a child), and `--version` prints `boilersync` (Python printed `cursor-multi`).
+- Not yet done: the desktop app (`boilersync-desktop`, Electron) remake in Tauri.
+
 ## Layout
 
 | Path | Repo | Purpose |
