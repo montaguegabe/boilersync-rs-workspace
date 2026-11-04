@@ -1,8 +1,12 @@
 {
+  "hooks": {
+    "path": ".githooks"
+  },
   "repos": [
     {
       "url": "https://github.com/montaguegabe/boilersync-rs",
-      "description": "Rust rewrite of boilersync (CLI/core) — private remake"
+      "description": "Rust rewrite of boilersync (CLI/core) — private remake",
+      "name": "boilersync-rs"
     }
   ]
 }
