@@ -2,6 +2,8 @@
 # multi avoids git submodules; the leading slash anchors each entry to the workspace root so it never matches a nested directory of the same name (e.g. .agents/skills). The trailing-slash form matches the repo directory; the bare form matches a root symlink/alias.
 /boilersync-rs/
 /boilersync-rs
+/boilersync-rs-desktop/
+/boilersync-rs-desktop
 # END multi-managed: repo-directories
 
 # BEGIN multi-managed: generated-files

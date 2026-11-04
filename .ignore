@@ -2,4 +2,6 @@
 # Allow us to search inside these gitignored directories
 !/boilersync-rs/
 !/boilersync-rs
+!/boilersync-rs-desktop/
+!/boilersync-rs-desktop
 # END multi-managed: search-inside-gitignored-repos

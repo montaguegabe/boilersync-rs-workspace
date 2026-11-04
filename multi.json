@@ -7,6 +7,11 @@
       "url": "https://github.com/montaguegabe/boilersync-rs",
       "description": "Rust rewrite of boilersync (CLI/core) — private remake",
       "name": "boilersync-rs"
+    },
+    {
+      "url": "https://github.com/montaguegabe/boilersync-rs-desktop",
+      "name": "boilersync-rs-desktop",
+      "description": "Tauri desktop for the boilersync remake (Electron replacement) — private"
     }
   ]
 }
